@@ -41,6 +41,7 @@ Estimated time is 3 hours.
 - Try to make use of destructuring method to get data from the objects.
 - Each logic should be in its serperate module. For this project, more is better.
 - The design should be amazing. I mean stick to the given layout, but make the design great and dynamic. Use hovers, transitions, animations. Whatever you can! Work on design at the end.
+- When done, you will create a pull request from a seperate branch and wait for my approval.
 
 # Store Layout
 <p align="center">
