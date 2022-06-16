@@ -42,5 +42,12 @@ Estimated time is 3 hours.
 - Each logic should be in its serperate module. For this project, more is better.
 - The design should be amazing. I mean stick to the given layout, but make the design great and dynamic. Use hovers, transitions, animations. Whatever you can! Work on design at the end.
 
+# Store Layout
+<p align="center">
+<img src="./preview/shop.png">
+<img src="./preview/cart_empty.png">
+<img src="./preview/cart.png">
+The font is YaHei, if you want to use it.
+</p>
 
 ***Note Make sure you use `.gitignore` and do not commit `node_modules`**
