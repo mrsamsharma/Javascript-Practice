@@ -1,6 +1,6 @@
 # Day 2
 
-Estimated time is 3 hours.
+Estimated time is 8 hours.
 
 ## Learning Objectives
 
