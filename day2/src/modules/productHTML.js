@@ -2,6 +2,7 @@ import {onCartTrue} from "./products";
 import { products } from "./products.js";
 import {cart, updateCart} from './cart.js';
 import loadCartProducts from './cartHTML.js';
+import { onCartLocal } from "./products.js";
 
 export default function loadProducts(arr) {
   arr.forEach((each) => {
@@ -31,7 +32,6 @@ export default function loadProducts(arr) {
      updateCart(products);
      document.querySelector('.card-container').innerHTML = '';
      loadCartProducts(cart);
-      console.log(cart)
     });
     productInfo.appendChild(onCartBtn);
     productContainer.appendChild(productInfo);

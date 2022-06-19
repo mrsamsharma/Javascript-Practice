@@ -46,13 +46,18 @@ export let products = [
   },
 ];
 
+export let onCartLocal = [];
+
 export const onCartTrue = (id, arr) => {
   let selected = arr.filter((select) => select.id === id)[0];
    selected = {...selected, onCart: true};
    arr = arr.filter((x) => x.id !== id);
    arr = [...arr, selected]
    products = arr;
- };
+  onCartLocal = onCartLocal.filter((each) => each.id !== id);
+  onCartLocal = [...onCartLocal, {id: selected.id, onCart: selected.onCart}];
+  localStorage.setItem('local',  JSON.stringify(onCartLocal));
+};
 
  export const onCartFalse = (id, arr) => {
   let selected = arr.filter((select) => select.id === id)[0];
@@ -60,4 +65,7 @@ export const onCartTrue = (id, arr) => {
    arr = arr.filter((x) => x.id !== id);
    arr = [...arr, selected]
    products = arr;
+   onCartLocal = onCartLocal.filter((each) => each.id !== id);
+   onCartLocal = [...onCartLocal, {id: selected.id, onCart: selected.onCart}];
+   localStorage.setItem('local',  JSON.stringify(onCartLocal));
  };

@@ -1,7 +1,4 @@
-import { cart } from "./cart.js";
-import { onCartFalse } from "./products.js";
-import { updateCart } from "./cart.js";
-import { products } from "./products.js";
+import {products, onCartFalse } from "./products.js";
 
 export default function loadCartProducts(arr) {
   arr.forEach((each) => {
@@ -27,7 +24,7 @@ export default function loadCartProducts(arr) {
     onCartBtn.textContent = 'Remove from Cart';
     onCartBtn.setAttribute('id', each.id);
     onCartBtn.addEventListener('click', (e) => {
-     onCartFalse(e.target.id, cart);
+     onCartFalse(e.target.id, products);
      e.target.parentElement.parentElement.remove();
     });
     productInfo.appendChild(onCartBtn);
