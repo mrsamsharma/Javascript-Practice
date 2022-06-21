@@ -3,7 +3,7 @@ import {products, onCartFalse } from "./products.js";
 export default function loadCartProducts(arr) {
   arr.forEach((each) => {
     const productContainer = document.createElement('div');
-    productContainer.className = 'product-container';
+    productContainer.className = 'cart-product-container';
     const productImg = document.createElement('img');
     productImg.setAttribute('alt', each.imgAlt);
     productImg.setAttribute('class', each.imgClass);
