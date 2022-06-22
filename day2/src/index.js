@@ -11,13 +11,13 @@ if(localStorage.local) {
     if (each.onCart) {
       onCartTrue(each.id, products);
     }
-    else {
+    else if (!each.onCart){
       document.querySelector('.card-container').innerHTML =  `<span class="message">The cart is empty! :(</span>`;
     }
   });
   updateCart(products);
   loadCart(cart);
-};
+}
 
 hide();
 

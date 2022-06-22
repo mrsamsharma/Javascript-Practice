@@ -89,6 +89,7 @@ button:active {
 
 }
 .card-container {
+  min-height: 60vh;
   display: none;
   flex-direction: column;
   margin: 50px 100px 50px 100px;
