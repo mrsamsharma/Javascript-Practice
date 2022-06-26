@@ -20,7 +20,7 @@ Estimated time is 4 hours.
 - What is an API? Read [this](https://www.ibm.com/cloud/learn/api) article by IBM.
 - Watch this video about [working with APIs](https://www.youtube.com/watch?v=ecT42O6I_WI).
 - Learn fetch API [here](https://www.youtube.com/results?search_query=javascript+api).
-- Play around with classes and API and create something of your own to submit as a project.
+- Play around with classes, and API and create something of your own to submit as a project.
 
 
 ***Note Make sure you use `.gitignore` and do not commit `node_modules`**
