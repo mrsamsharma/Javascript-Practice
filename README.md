@@ -1,6 +1,6 @@
 # Classes
 
-Estimated time is 4 hours.
+Estimated time is 4 hours
 
 ## Learning Objectives
 - Why and where you'll use classes?
